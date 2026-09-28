@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Devansh Pandey | Cyber Security Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hacking Background -->
+    <canvas id="hacking-bg"></canvas>
+
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">Devansh Pandey</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-text">SYSTEM ACCESS // DEVANSH</p>
+
+            <h1>Devansh Pandey</h1>
+
+            <h2>
+                B.Tech CSE <span>| Cyber Security</span>
+            </h2>
+
+            <p>
+                Aspiring Ethical Hacker & Cyber Security Enthusiast
+                passionate about technology, coding and protecting
+                digital systems.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="profile-box">
+
+            <div class="profile-circle">
+                <img src="profile.jpg" alt="Devansh Pandey">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+            <p>
+                I am a B.Tech Computer Science Engineering student
+                specializing in Cyber Security at Vishveshwarya Group
+                of Institutions.
+            </p>
+
+            <p>
+                I am currently learning Python, C, Web Development
+                and Cyber Security. My goal is to become an ethical
+                hacker and build secure digital systems.
+            </p>
+
+            <p>
+                I enjoy exploring new technologies and developing
+                projects that improve my programming and security skills.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Basics & Programming</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>C</h3>
+                <p>Programming Fundamentals</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Web Designing</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Web Interactivity</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Cyber Security</h3>
+                <p>Learning & Exploring</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Login Page</h3>
+
+                <p>
+                    A responsive login page created using
+                    HTML and CSS.
+                </p>
+
+                <a href="#" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A cybersecurity-themed personal portfolio
+                    website using HTML, CSS and JavaScript.
+                </p>
+
+                <a href="#" class="project-link">
+                    Current Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>More Coming Soon</h3>
+
+                <p>
+                    More programming and cybersecurity projects
+                    will be added here.
+                </p>
+
+                <span class="project-link">
+                    Stay Tuned...
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p>
+            Interested in connecting or collaborating?
+            Feel free to reach out.
+        </p>
+
+        <div class="contact-buttons">
+
+            <a
+                href="https://github.com/devansheoi-wq"
+                target="_blank">
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/devanshpandeyeoi/"
+                target="_blank">
+                LinkedIn
+            </a>
+
+            <a
+                href="https://wa.me/+919234647373"
+                target="_blank">
+                WhatsApp
+            </a>
+            <a
+                href="https://www.instagram.com/theonly_devansh/"
+                target="_blank">
+                Instagram
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Devansh Pandey |
+            Built with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+
+    <!-- Hacking Background JavaScript -->
+    <script>
+
+        const canvas =
+            document.getElementById("hacking-bg");
+
+        const ctx =
+            canvas.getContext("2d");
+
+
+        canvas.width =
+            window.innerWidth;
+
+        canvas.height =
+            window.innerHeight;
+
+
+        const characters =
+            "01ABCDEFGHIJKLMNOPQRSTUVWXYZ#$%@&<>[]{}";
+
+
+        const fontSize = 14;
+
+        let columns =
+            Math.floor(canvas.width / fontSize);
+
+
+        let drops = [];
+
+
+        for (let i = 0; i < columns; i++) {
+
+            drops[i] =
+                Math.random() *
+                canvas.height;
+
+        }
+
+
+        function drawHackingBackground() {
+
+            ctx.fillStyle =
+                "rgba(0, 0, 0, 0.08)";
+
+            ctx.fillRect(
+                0,
+                0,
+                canvas.width,
+                canvas.height
+            );
+
+
+            ctx.font =
+                fontSize + "px monospace";
+
+
+            for (let i = 0; i < drops.length; i++) {
+
+                const character =
+                    characters.charAt(
+                        Math.floor(
+                            Math.random() *
+                            characters.length
+                        )
+                    );
+
+
+                const brightness =
+                    Math.floor(
+                        Math.random() * 100
+                    );
+
+
+                ctx.fillStyle =
+                    `rgb(0, ${150 + brightness}, ${100 + brightness})`;
+
+
+                ctx.fillText(
+                    character,
+                    i * fontSize,
+                    drops[i] * fontSize
+                );
+
+
+                if (
+                    drops[i] * fontSize >
+                    canvas.height &&
+                    Math.random() > 0.975
+                ) {
+
+                    drops[i] = 0;
+
+                }
+
+
+                drops[i] += 0.7;
+
+            }
+
+        }
+
+
+        setInterval(
+            drawHackingBackground,
+            35
+        );
+
+
+        /* Resize Background */
+
+        window.addEventListener(
+            "resize",
+            () => {
+
+                canvas.width =
+                    window.innerWidth;
+
+                canvas.height =
+                    window.innerHeight;
+
+
+                columns =
+                    Math.floor(
+                        canvas.width /
+                        fontSize
+                    );
+
+
+                drops = [];
+
+
+                for (
+                    let i = 0;
+                    i < columns;
+                    i++
+                ) {
+
+                    drops[i] =
+                        Math.random() *
+                        canvas.height;
+
+                }
+
+            }
+        );
+
+    </script>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Devansh Pandey | Cyber Security Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#050816,#0f172a);
+}
+
+.hero h1{
+font-size:4rem;
+color:#00ffff;
+text-shadow:0 0 20px #00ffff;
+}
+
+.hero p{
+max-width:700px;
+margin:20px auto;
+font-size:1.1rem;
+color:#cbd5e1;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#00ffff;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:30px;
+margin-top:20px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 0 20px #00ffff;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,.7);
+backdrop-filter:blur(10px);
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+font-size:2.5rem;
+text-align:center;
+margin-bottom:40px;
+color:#00ffff;
+}
+
+.about{
+text-align:center;
+}
+
+.skills{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.skill{
+padding:15px 25px;
+border:1px solid #00ffff;
+border-radius:10px;
+background:#0f172a;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:#0f172a;
+padding:25px;
+border-radius:15px;
+border:1px solid rgba(0,255,255,.3);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px rgba(0,255,255,.5);
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#020617;
+color:#94a3b8;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:10px;
+background:#1e293b;
+color:white;
+}
+
+form{
+max-width:600px;
+margin:auto;
+}
+
+button{
+padding:12px 25px;
+background:#00ffff;
+border:none;
+border-radius:30px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+box-shadow:0 0 15px #00ffff;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+<div class="hero">
+<h1>Devansh Pandey</h1>
+<p>
+Cyber Security Enthusiast | Future Ethical Hacker | Web Developer
+</p>
+
+<p>
+A CSE (Cyber Security) student passionate about ethical hacking and web development.
+Currently building projects and improving my expertise in HTML and Python.
+</p>
+
+<a href="#contact" class="btn">Let's Connect</a>
+
+</div>
+</header>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+<p>
+Hello! I'm Devansh Pandey, a Cyber Security student who loves technology,
+web development and ethical hacking. I enjoy creating websites, learning
+new security concepts and building practical projects.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">Python</div>
+<div class="skill">Cyber Security</div>
+<div class="skill">Web Development</div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Personal Portfolio Website</h3>
+<p>
+Designed and developed my own portfolio website with a modern cyber security theme.
+</p>
+</div>
+
+<div class="card">
+<h3>Future Project</h3>
+<p>
+Password Strength Checker (Coming Soon)
+</p>
+</div>
+
+<div class="card">
+<h3>Future Project</h3>
+<p>
+Network Scanner Tool (Coming Soon)
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Me</h2>
+
+<div class="contact">
+
+<a class="whatsapp"
+href="https://wa.me/919234647373?text=Hello%20Devansh,%20I%20visited%20your%20portfolio."
+target="_blank">
+Chat on WhatsApp </a>
+
+<br><br>
+
+<p>Email: devansheoi@gmail.com</p>
+<p>Instagram: @theonly_devansh</p>
+
+<br>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</div>
+</section>
+
+<footer>
+© 2026 Devansh Pandey | Cyber Security Portfolio
+</footer>
+
+</body>
+</html>
